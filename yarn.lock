@@ -264,6 +264,11 @@
   "resolved" "https://registry.npmjs.org/@eslint/js/-/js-8.52.0.tgz"
   "version" "8.52.0"
 
+"@faker-js/faker@^8.2.0":
+  "integrity" "sha512-VacmzZqVxdWdf9y64lDOMZNDMM/FQdtM9IsaOPKOm2suYwEatb8VkdHqOzXcDnZbk7YDE2BmsJmy/2Hmkn563g=="
+  "resolved" "https://registry.npmjs.org/@faker-js/faker/-/faker-8.2.0.tgz"
+  "version" "8.2.0"
+
 "@formatjs/ecma402-abstract@1.17.2":
   "integrity" "sha512-k2mTh0m+IV1HRdU0xXM617tSQTi53tVR2muvYOsBeYcUgEAyxV1FOC7Qj279th3fBVQ+Dj6muvNJZcHSPNdbKg=="
   "resolved" "https://registry.npmjs.org/@formatjs/ecma402-abstract/-/ecma402-abstract-1.17.2.tgz"
