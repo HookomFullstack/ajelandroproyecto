@@ -64,12 +64,12 @@ const columns2 = [
 
   
   const userRecents = JSON.parse(localStorage.getItem('auth'))?.flat()[0]?.dataUser?.filter( (e, i) => i <= 5 )
-  const expedentsRecents = [...Array(1)].map(e => e = userRecents.map(({id, name, cases}) => {
+  const expedentsRecents = [...Array(1)]?.map(e => e = userRecents?.map(({id, name, cases}) => {
     
     const {date, mount, typeContract, status} = cases
     
     return {id, name, date, mount, typeContract, status }
-  })).flat()
+  }))?.flat()
 
   export const Index = () => {
 

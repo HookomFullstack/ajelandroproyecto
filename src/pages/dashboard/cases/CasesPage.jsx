@@ -29,13 +29,13 @@ const columns = [
   },
 ];
 
-const userRecents = JSON.parse(localStorage.getItem('auth')).flat()[0].dataUser
-const users = [...Array(1)].map(e => e = userRecents.map(({id, name, cases}) => {
+const userRecents = JSON.parse(localStorage.getItem('auth'))?.flat()[0]?.dataUser
+const users = [...Array(1)]?.map(e => e = userRecents?.map(({id, name, cases}) => {
   
   const {date, mount, typeContract, status} = cases
   
   return {id, name, date, mount, typeContract, status }
-})).flat()
+}))?.flat()
 
 export const CasesPage = () => {
   

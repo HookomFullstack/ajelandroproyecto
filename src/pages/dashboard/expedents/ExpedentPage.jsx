@@ -33,7 +33,7 @@ const columns = [
 ];
   
 
-const users = JSON.parse(localStorage.getItem('auth')).flat()[0].dataUser
+const users = JSON.parse(localStorage.getItem('auth'))?.flat()[0]?.dataUser
 
 export const ClientPage = () => {
     
